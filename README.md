@@ -1,16 +1,33 @@
-# React + Vite
+# 🎮 Gamer's Radar (Data Dashboard Part 2)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Gamer's Radar** is a dynamic React web application built with Vite that serves as the ultimate tracking hub for highly anticipated upcoming video game releases. 
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 👤 Developer Details
+*   **Student Name:** Gamuchirai Mubayiwa
+*   **Course:** CodePath WEB102 (Intermediate Web Development)
+*   **GitHub Repository:** [gamers-radar-](https://github.com/mubayiwagamuchirai356-svg/gamers-radar-)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔗 Submission Details
+*   **Video Walkthrough:** [https://imgur.com/a/ZjSdAAP]
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ⚡ Completed Requirements
+
+### Core Features (Required)
+*   **[x] Persistent Sidebar/Navigation:** A clean navigation system remains consistent across both the dashboard and details pages.
+*   **[x] Interactive Data Visualizations:** Integrated two distinct charts (a Bar Chart for releases by month and a Pie Chart for genre distribution) using Recharts.
+*   **[x] Dynamic Routing (`useParams`):** Users can click any game card to go to a unique details URL (e.g., `/game-detail/:id`).
+*   **[x] Deep-Dive Metadata:** The dynamic detail view displays detailed statistics including rating, release date, genre, and a description.
+
+---
+
+## 🛠️ Tech Stack
+*   **Frontend:** React (Vite)
+*   **Routing:** React Router DOM (v6)
+*   **Visualizations:** Recharts
+*   **Styling:** Custom CSS
